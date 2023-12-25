@@ -1,0 +1,30 @@
+    /* Write CSS Here */
+    
+    body {
+        display: fixed;
+        background: url('snake.png') no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
+    
+    .nik {
+        font-size: 40px;
+        font-weight: bold;
+        color: grey;
+    }
+    
+    a {
+        border: 2px solid blue;
+        font-family: system-ui;
+        text-decoration: none;
+        padding: 0.5vw 4vw;
+        font-size: 1.5vw;
+        border-radius: 5vw;
+        transition: all .5s;
+    }
+    
+    a:hover {
+        background-color: blue;
+        color: white;
+        font-weight: bold;
+    }
